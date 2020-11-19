@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    
+     
+    }
+    form {
+        display: inline-block;
+        text-align: center;
+    }
+    .a{
+        text-decoration: none;
+    }
+    
+    
+    .header{
+    
+        color: rgba(161, 85, 85, 0.637);
+         font-size: 20px ;
+         font-family:arial;
+        
+    }
+    .sidenav{
+    background: rgb(233, 226, 245);
+    font-size: 30px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top:0;
+    width: 300px;
+    height:100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+    transition: 00.5s;
+    transition-property: left;
+    
+    }
+    
+    .sidenav a{
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+    }
+    .sidenav a:hover{
+        background: #1baac7 ;
+    }
+    
+    .sidenav i{
+        padding-right: 15px;
+    }
+    
+    .biggest{
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        margin: auto;
+        padding:0px;
+        overflow: hidden;
+      display: table;
+      -webkit-transform: translate3d(-50%, -50%, 0);
+     -moz-transform: translate3d(-50%, -50%, 0);
+     transform:translate3d(-50%, -50%, 0) ;
+      top: 50%;
+      left: 50%;
+      right: 50%;
+      position: absolute;
+     
+    
+    }
+    
+    .content{
+    
+    transition: 0.5s;
+    
+    }
+    #check:checked ~ .content{
+        margin-left: 60px;
+    }
+    #check{
+        display: none;
+    }
+    .container{
+    
+    width: 200px;
+    height: 400px;
+    margin: 80px auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1),
+    0 6px 8px rgba(0,0,0,0.1) ;
+    border-radius: 20px; 
+    
+    }
+    .container .heading{
+    font size: 80px; 
+    color: #9400D3;
+    font-weight: bolder;
+    cursor: pointer;
+    
+    }
+    .container .formA form p{
+        font-weight: 400;
+    }
+    .container .formA form .formInput input{
+        
+        width: 200px;
+        height: 30px;
+        border: 1px solid rgba(128, 128, 128, 0.521);
+        font-size: 18px;
+        padding: 6px 15px;
+        margin:5px 0;
+     border-radius: 10px;
+     outline: none;
+     text-align: center;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+    
+    }
+    .container .formA form  .send{
+        margin: 10px 0;
+    }
+    
+    .container .formA form  .send button{
+    color: #fff;
+    border: 1px solid #9400D3;
+    background-color: #9400D3;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    word-wrap: none;
+    font-size: 21px;
+    
+    }
